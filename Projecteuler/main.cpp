@@ -39,15 +39,15 @@
    34  | Digit factorials                            | 40730          |  4/3/2016
    56  | Powerful digit sum                          | 972            |  4/3/2016
    63  | Powerful digit counts                       | 49             |  4/3/2016
- 
+   67  | Maximum path sum II                         | 4613732        |  3/26/2016
  
  */
 
-#include "problem63.hpp"
+#include "problem67.hpp"
 
 int main()
 {
-    run_problem63();
+    run_problem67();
 }
 
 //=========================== Problem # ===========================
@@ -61,58 +61,7 @@ int main()
  */
 //Solution:
 
-//=========================== Problem 67 ===========================
-//Title: Maximum path sum II
-/*
- Start date: 3/26/2016
- Finish date: 3/26/2016
- 
- Description:
- By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
- 
- 3
- 7 4
- 2 4 6
- 8 5 9 3
- 
- That is, 3 + 7 + 4 + 9 = 23.
- 
- Find the maximum total from top to bottom in triangle.txt (right click and 'Save Link/Target As...'), a 15K text file containing a triangle with one-hundred rows.
- 
-    https://projecteuler.net/project/resources/p067_triangle.txt
- 
- NOTE: This is a much more difficult version of Problem 18. It is not possible to try every route to solve this problem, as there are 2^99 altogether! If you could check one trillion (10^12) routes every second it would take over twenty billion years to check them all. There is an efficient algorithm to solve it. ;o)
- */
-//Solution:
-/*
-#include <iostream>
-#include <fstream>
-#include <cmath>
 
-int main()
-{
-    using namespace std;
-    int *a, cnt = 0, size = 100;
-    a = (int *)malloc(100 * sizeof(int));
-    
-    ifstream fin("problem 67.txt");
-    while (!fin.eof()) {
-        fin >> a[cnt++];
-        if (cnt == size) {
-            a = (int *)realloc(a, (100 + size)*sizeof(int));
-            size += 100;
-        }
-    }
-    int row = (sqrt(1+8*cnt)-1)/2;
-    for (int r = row; r > 1; r--) {
-        int st = r*(r-1)/2;
-        for (int c = 0; c < r-1; c++) {
-            a[st+c-r+1] += (a[st+c] > a[st+c+1]) ? (a[st+c]):(a[st+c+1]);
-        }
-    }
-    std::cout << a[0];
-}
-*/
 
 //=========================== Problem 69 ===========================
 //Title: Totient maximum

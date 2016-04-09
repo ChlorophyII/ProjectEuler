@@ -38,6 +38,7 @@
 		119C605B1CB9537100D34106 /* problem34.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60591CB9537100D34106 /* problem34.cpp */; };
 		119C605E1CB9560100D34106 /* problem56.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C605C1CB9560100D34106 /* problem56.cpp */; };
 		119C60611CB9585900D34106 /* problem63.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C605F1CB9585900D34106 /* problem63.cpp */; };
+		119C60851CB9730100D34106 /* problem67.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60831CB9730100D34106 /* problem67.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +116,8 @@
 		119C605D1CB9560100D34106 /* problem56.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem56.hpp; sourceTree = "<group>"; };
 		119C605F1CB9585900D34106 /* problem63.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem63.cpp; sourceTree = "<group>"; };
 		119C60601CB9585900D34106 /* problem63.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem63.hpp; sourceTree = "<group>"; };
+		119C60831CB9730100D34106 /* problem67.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem67.cpp; sourceTree = "<group>"; };
+		119C60841CB9730100D34106 /* problem67.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem67.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				11685A6D1CAF63F000F3D022 /* BIGNUM.cpp */,
 				11685A6E1CAF63F000F3D022 /* BIGNUM.hpp */,
 				113639531CA411F60027C632 /* main.cpp */,
+				119C60831CB9730100D34106 /* problem67.cpp */,
+				119C60841CB9730100D34106 /* problem67.hpp */,
 				119C600B1CB8E7A400D34106 /* problem2.cpp */,
 				119C600C1CB8E7A400D34106 /* problem2.hpp */,
 				119C600E1CB8E9A800D34106 /* problem3.cpp */,
@@ -296,6 +301,7 @@
 				119C60131CB8EA5F00D34106 /* problem4.cpp in Sources */,
 				11685A6F1CAF63F000F3D022 /* BIGNUM.cpp in Sources */,
 				119C604F1CB94EC400D34106 /* problem28.cpp in Sources */,
+				119C60851CB9730100D34106 /* problem67.cpp in Sources */,
 				119C60371CB8F53A00D34106 /* problem18.cpp in Sources */,
 				119C60311CB8F34000D34106 /* problem14.cpp in Sources */,
 				119C604C1CB94DE900D34106 /* problem26.cpp in Sources */,
