@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Projecteuler/main.cpp"
-            timestampString = "481882232.77929"
+            timestampString = "481883236.920878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1903"
-            endingLineNumber = "1903">
+            startingLineNumber = "1501"
+            endingLineNumber = "1501">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Projecteuler/main.cpp"
-            timestampString = "481882232.77929"
+            timestampString = "481883236.920878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1899"
-            endingLineNumber = "1899">
+            startingLineNumber = "1497"
+            endingLineNumber = "1497">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -38,11 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Projecteuler/main.cpp"
-            timestampString = "481882232.77929"
+            timestampString = "481883236.920878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1196"
-            endingLineNumber = "1196">
+            startingLineNumber = "794"
+            endingLineNumber = "794">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
