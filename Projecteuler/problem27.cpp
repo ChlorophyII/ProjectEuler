@@ -12,7 +12,7 @@
 #include <fstream>
 #include <cmath>
 
-int locateGreatestPrime(int a, int primes[]);
+static int locateGreatestPrime(int a, int primes[]);
 
 void run_problem27()
 {
@@ -74,7 +74,7 @@ void run_problem27()
     cout << product << "\n";
 }
 
-int locateGreatestPrime(int a, int primes[])
+static int locateGreatestPrime(int a, int primes[])
 {
     //return i, where primes[i] <= a;
     int i = a / log(a);

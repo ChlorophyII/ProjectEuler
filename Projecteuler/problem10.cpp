@@ -11,7 +11,7 @@
 #include <iostream>
 #include <math.h>
 
-bool isPrime(int a, int p[], int num);
+static bool isPrime(int a, int p[], int num);
 
 void run_problem10()
 {
@@ -42,7 +42,7 @@ void run_problem10()
     std::cout << sum << "\n" << double(clock()-start)/CLOCKS_PER_SEC << "\n";
 }
 
-bool isPrime(int a, int p[], int num)
+static bool isPrime(int a, int p[], int num)
 {
     for (int i = 0; i < num; i++) {
         if (a%p[i] == 0) {
@@ -58,8 +58,9 @@ bool isPrime(int a, int p[], int num)
 #include <iostream>
 #include <math.h>
 
-const int LIMIT = 2000000;
-const int SQRTLIMIT = sqrt(LIMIT) + 1;
+static const int LIMIT = 2000000;
+static const int SQRTLIMIT = sqrt(LIMIT) + 1;
+
 void run_problem10()
 {
     clock_t start = clock();

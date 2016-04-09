@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-bool isPrime(int a);
+static bool isPrime(int a);
 
 void run_problem5()
 {
@@ -45,7 +45,7 @@ void run_problem5()
     std::cout << product << "\n";
 }
 
-bool isPrime(int a)
+static bool isPrime(int a)
 {
     if (a < 2) {
         return false;

@@ -8,14 +8,15 @@
 
 #include "problem3.hpp"
 #include <iostream>
-int largestPrimeFactor(long long a);
+
+static int largestPrimeFactor(long long a);
 
 void run_problem3()
 {
     std::cout << largestPrimeFactor(600851475143) << "\n";
 }
 
-int largestPrimeFactor(long long a)
+static int largestPrimeFactor(long long a)
 {
     int factors[64];
     int i = 0;

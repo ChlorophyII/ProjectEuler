@@ -12,7 +12,7 @@
 
 //Note, 9! * 7 = 2540160, which means 2540160 is the upper bound of such numbers.
 
-int oneDigitFactorial(int a);
+static int oneDigitFactorial(int a);
 
 void run_problem34()
 {
@@ -32,7 +32,7 @@ void run_problem34()
     std::cout << sum << "\n";
 }
 
-int oneDigitFactorial(int a)
+static int oneDigitFactorial(int a)
 {
     switch (a) {
         case 0:

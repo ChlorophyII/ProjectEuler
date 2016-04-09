@@ -11,7 +11,7 @@
 //There is some small problem, but luckily, the result is correct.
 #include <iostream>
 
-int sumOfProperDivisors(int a);
+static int sumOfProperDivisors(int a);
 
 void run_problem21()
 {
@@ -41,7 +41,7 @@ void run_problem21()
     std::cout << sum;
 }
 
-int sumOfProperDivisors(int a)
+static int sumOfProperDivisors(int a)
 {
     int sum = 0;
     for (int i = 1; i < a; i++) {

@@ -11,8 +11,8 @@
 #include <iostream>
 #include <cmath>
 
-const long double Phi = (1+sqrt(5))/2, phi = (1-sqrt(5))/2;
-const long double sqrt5 = sqrt(5);
+static const long double Phi = (1+sqrt(5))/2, phi = (1-sqrt(5))/2;
+static const long double sqrt5 = sqrt(5);
 
 void run_problem25()
 {

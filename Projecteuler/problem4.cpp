@@ -9,7 +9,7 @@
 #include "problem4.hpp"
 #include <iostream>
 
-bool isPalindrome(long long a);
+static bool isPalindrome(long long a);
 
 void run_problem4()
 {
@@ -25,7 +25,7 @@ void run_problem4()
     std::cout << max << "\n";
 }
 
-bool isPalindrome(long long a)
+static bool isPalindrome(long long a)
 {
     int digits[21] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
     int i;

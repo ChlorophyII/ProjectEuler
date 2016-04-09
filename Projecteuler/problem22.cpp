@@ -12,13 +12,13 @@
 #include <fstream>
 #include <string>
 
-int letterScore(char ch);
+static int letterScore(char ch);
 
-int strScore(std::string str);
+static int strScore(std::string str);
 
-void quickSort(std::string *array, int n);
+static void quickSort(std::string *array, int n);
 
-int partition(std::string *array, int n);
+static int partition(std::string *array, int n);
 
 void run_problem22()
 {
@@ -46,12 +46,12 @@ void run_problem22()
     cout << total << "\n";
 }
 
-int letterScore(char ch)
+static int letterScore(char ch)
 {
     return ch - 'A' + 1;
 }
 
-int strScore(std::string str)
+static int strScore(std::string str)
 {
     int score = 0;
     for (int i = 0; i < str.length(); i++) {
@@ -60,7 +60,7 @@ int strScore(std::string str)
     return score;
 }
 
-int partition(std::string *array, int n)
+static int partition(std::string *array, int n)
 {
     int lh = 1, rh;
     std::string pivot, temp;
@@ -87,7 +87,7 @@ int partition(std::string *array, int n)
     return lh;
 }
 
-void quickSort(std::string *array, int n)
+static void quickSort(std::string *array, int n)
 {
     int p;
     if (n > 1) {

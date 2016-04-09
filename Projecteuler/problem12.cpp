@@ -12,7 +12,7 @@
 #include <iostream>
 #include <cmath>
 
-void fillInDivisors(int divisors[], int num);
+static void fillInDivisors(int divisors[], int num);
 
 void run_problem12()
 {
@@ -35,7 +35,8 @@ void run_problem12()
     
     std::cout << num << "\n";
 }
-void fillInDivisors(int divisors[], int num)
+
+static void fillInDivisors(int divisors[], int num)
 {
     int j = 0;
     if (pow(int(sqrt(num)),2) == num)

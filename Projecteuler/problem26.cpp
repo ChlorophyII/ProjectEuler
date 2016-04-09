@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-int reciprocalCycleLength(int a);
+static int reciprocalCycleLength(int a);
 
 void run_problem26()
 {
@@ -24,7 +24,7 @@ void run_problem26()
     std::cout << "d = " << d << "\n";
 }
 
-int reciprocalCycleLength(int a)
+static int reciprocalCycleLength(int a)
 {
     int dividend = 1;
     for (int i = 0; i < 50; i++) {

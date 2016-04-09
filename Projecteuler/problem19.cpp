@@ -11,7 +11,7 @@
 //There is a little bit problem, but lukily, the result is right.
 #include <iostream>
 
-int getMonthDay(int month, int year);
+static int getMonthDay(int month, int year);
 
 void run_problem19()
 {
@@ -35,7 +35,7 @@ void run_problem19()
     std::cout << cnt << "\n";
 }
 
-int getMonthDay(int month, int year)
+static int getMonthDay(int month, int year)
 {
     if (month == 1 || month == 3 || month == 5|| month == 7 || month == 8 || month == 10 || month == 12) {
         return 31;

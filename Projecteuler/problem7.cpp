@@ -11,7 +11,7 @@
 #include <iostream>
 #include <math.h>
 
-bool isPrime(long a, long p[], int num);
+static bool isPrime(long a, long p[], int num);
 
 void run_problem7()
 {
@@ -28,7 +28,7 @@ void run_problem7()
     std::cout << p[10000] << "\n";
 }
 
-bool isPrime(long a, long p[], int num)
+static bool isPrime(long a, long p[], int num)
 {
     for (int i = 0; i < num; i++) {
         if (a%p[i] == 0) {

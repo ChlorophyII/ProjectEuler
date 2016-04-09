@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-int locate(int denomination);
+static int locate(int denomination);
 
 void run_problem31()
 {
@@ -50,7 +50,7 @@ void run_problem31()
     
 }
 
-int locate(int denomination)
+static int locate(int denomination)
 {
     switch (denomination) {
         case 200:

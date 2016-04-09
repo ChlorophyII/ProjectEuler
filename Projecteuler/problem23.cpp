@@ -10,8 +10,8 @@
 
 #include <iostream>
 
-bool isAbundant(int a);
-bool isSumOfAbdNumbers(int a, bool *isAbd);
+static bool isAbundant(int a);
+static bool isSumOfAbdNumbers(int a, bool *isAbd);
 
 void run_problem23()
 {
@@ -28,7 +28,7 @@ void run_problem23()
     std::cout << sum << "\n";
 }
 
-bool isAbundant(int a)
+static bool isAbundant(int a)
 {
     int sum = 0;
     for (int i = 1; i <= a/2; i++) {
@@ -42,7 +42,7 @@ bool isAbundant(int a)
         return false;
 }
 
-bool isSumOfAbdNumbers(int a, bool *isAbd)
+static bool isSumOfAbdNumbers(int a, bool *isAbd)
 {
     for (int i = 1; i <= a/2 ; i++) {
         if (isAbd[i] && isAbd[a-i]) {
