@@ -7,3 +7,18 @@
 //
 
 #include "problem25.hpp"
+
+#include <iostream>
+#include <cmath>
+
+const long double Phi = (1+sqrt(5))/2, phi = (1-sqrt(5))/2;
+const long double sqrt5 = sqrt(5);
+
+void run_problem25()
+{
+    int i = 1;
+    for (;logl((powl(Phi,i)-pow(phi,i))/sqrt5)/logl(10.0) < 999 ; i++) {
+    }
+    
+    std::cout << i << "\n";
+}

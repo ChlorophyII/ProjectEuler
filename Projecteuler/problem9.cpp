@@ -34,5 +34,5 @@ void run_problem9()
         }
     }
     
-    std::cout << p;
+    std::cout << p << "\n";
 }

@@ -12,7 +12,7 @@ int largestPrimeFactor(long long a);
 
 void run_problem3()
 {
-    std::cout << largestPrimeFactor(600851475143);
+    std::cout << largestPrimeFactor(600851475143) << "\n";
 }
 
 int largestPrimeFactor(long long a)

@@ -26,5 +26,5 @@ void run_problem20()
     for (int i = 0; i < a.getNumDigits(); i++) {
         sum += a.getDigit(i);
     }
-    std::cout << "\n" << sum << "\n";
+    std::cout << sum << "\n";
 }

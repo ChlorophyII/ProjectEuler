@@ -39,7 +39,7 @@ void run_problem10()
             sum += j;
         }
     }
-    std::cout << sum << "\n" << double(clock()-start)/CLOCKS_PER_SEC;
+    std::cout << sum << "\n" << double(clock()-start)/CLOCKS_PER_SEC << "\n";
 }
 
 bool isPrime(int a, int p[], int num)

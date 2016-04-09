@@ -18,5 +18,5 @@ void run_problem6()
         sum2 += i;
     }
     
-    std::cout << sum2*sum2 - sum1;
+    std::cout << sum2*sum2 - sum1 << "\n";
 }

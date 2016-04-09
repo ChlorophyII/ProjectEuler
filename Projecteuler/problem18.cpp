@@ -34,5 +34,5 @@ void run_problem18()
             a[st+c-r+1] += (a[st+c] > a[st+c+1]) ? (a[st+c]):(a[st+c+1]);
         }
     }
-    std::cout << a[0];
+    std::cout << a[0] << "\n";
 }

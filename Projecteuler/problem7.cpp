@@ -25,7 +25,7 @@ void run_problem7()
             i++;
         }
     }
-    std::cout << p[10000];
+    std::cout << p[10000] << "\n";
 }
 
 bool isPrime(long a, long p[], int num)

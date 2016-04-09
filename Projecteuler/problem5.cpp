@@ -42,7 +42,7 @@ void run_problem5()
             product *= primes[i][0];
         }
     }
-    std::cout << product;
+    std::cout << product << "\n";
 }
 
 bool isPrime(int a)

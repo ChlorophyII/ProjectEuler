@@ -8,9 +8,8 @@
 
 #include "problem2.hpp"
 
-
-
 #include <iostream>
+
 void run_problem2()
 {
     int sum = 2;
@@ -32,5 +31,5 @@ void run_problem2()
             sum += b;
         }
     }
-    std::cout << sum;
+    std::cout << sum << "\n";
 }

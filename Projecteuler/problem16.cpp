@@ -35,5 +35,5 @@ void run_problem16()
     for (int i = 0; i < 331; i++) {
         sum += arr[i]-'0';
     }
-    std::cout << sum;
+    std::cout << sum << "\n";
 }
