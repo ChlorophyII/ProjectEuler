@@ -13,6 +13,11 @@
 		119C60101CB8E9A800D34106 /* problem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C600E1CB8E9A800D34106 /* problem3.cpp */; };
 		119C60131CB8EA5F00D34106 /* problem4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60111CB8EA5F00D34106 /* problem4.cpp */; };
 		119C60161CB8EC2E00D34106 /* problem5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60141CB8EC2E00D34106 /* problem5.cpp */; };
+		119C60191CB8ED0C00D34106 /* problem6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60171CB8ED0C00D34106 /* problem6.cpp */; };
+		119C601C1CB8EDB400D34106 /* problem7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C601A1CB8EDB400D34106 /* problem7.cpp */; };
+		119C601F1CB8EE9000D34106 /* problem8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C601D1CB8EE9000D34106 /* problem8.cpp */; };
+		119C60221CB8EF3400D34106 /* problem9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60201CB8EF3400D34106 /* problem9.cpp */; };
+		119C60251CB8EFDE00D34106 /* problem10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60231CB8EFDE00D34106 /* problem10.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +45,16 @@
 		119C60121CB8EA5F00D34106 /* problem4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem4.hpp; sourceTree = "<group>"; };
 		119C60141CB8EC2E00D34106 /* problem5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem5.cpp; sourceTree = "<group>"; };
 		119C60151CB8EC2E00D34106 /* problem5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem5.hpp; sourceTree = "<group>"; };
+		119C60171CB8ED0C00D34106 /* problem6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem6.cpp; sourceTree = "<group>"; };
+		119C60181CB8ED0C00D34106 /* problem6.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem6.hpp; sourceTree = "<group>"; };
+		119C601A1CB8EDB400D34106 /* problem7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem7.cpp; sourceTree = "<group>"; };
+		119C601B1CB8EDB400D34106 /* problem7.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem7.hpp; sourceTree = "<group>"; };
+		119C601D1CB8EE9000D34106 /* problem8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem8.cpp; sourceTree = "<group>"; };
+		119C601E1CB8EE9000D34106 /* problem8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem8.hpp; sourceTree = "<group>"; };
+		119C60201CB8EF3400D34106 /* problem9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem9.cpp; sourceTree = "<group>"; };
+		119C60211CB8EF3400D34106 /* problem9.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem9.hpp; sourceTree = "<group>"; };
+		119C60231CB8EFDE00D34106 /* problem10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem10.cpp; sourceTree = "<group>"; };
+		119C60241CB8EFDE00D34106 /* problem10.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem10.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +96,18 @@
 				119C60121CB8EA5F00D34106 /* problem4.hpp */,
 				119C600E1CB8E9A800D34106 /* problem3.cpp */,
 				119C60141CB8EC2E00D34106 /* problem5.cpp */,
+				119C60171CB8ED0C00D34106 /* problem6.cpp */,
+				119C60181CB8ED0C00D34106 /* problem6.hpp */,
 				119C60151CB8EC2E00D34106 /* problem5.hpp */,
 				119C600F1CB8E9A800D34106 /* problem3.hpp */,
+				119C60231CB8EFDE00D34106 /* problem10.cpp */,
+				119C60241CB8EFDE00D34106 /* problem10.hpp */,
+				119C60201CB8EF3400D34106 /* problem9.cpp */,
+				119C60211CB8EF3400D34106 /* problem9.hpp */,
+				119C601D1CB8EE9000D34106 /* problem8.cpp */,
+				119C601E1CB8EE9000D34106 /* problem8.hpp */,
+				119C601A1CB8EDB400D34106 /* problem7.cpp */,
+				119C601B1CB8EDB400D34106 /* problem7.hpp */,
 			);
 			path = Projecteuler;
 			sourceTree = "<group>";
@@ -143,10 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119C60251CB8EFDE00D34106 /* problem10.cpp in Sources */,
 				119C600D1CB8E7A400D34106 /* problem2.cpp in Sources */,
+				119C60191CB8ED0C00D34106 /* problem6.cpp in Sources */,
 				119C60101CB8E9A800D34106 /* problem3.cpp in Sources */,
+				119C60221CB8EF3400D34106 /* problem9.cpp in Sources */,
 				113639541CA411F60027C632 /* main.cpp in Sources */,
 				119C60161CB8EC2E00D34106 /* problem5.cpp in Sources */,
+				119C601C1CB8EDB400D34106 /* problem7.cpp in Sources */,
+				119C601F1CB8EE9000D34106 /* problem8.cpp in Sources */,
 				119C60131CB8EA5F00D34106 /* problem4.cpp in Sources */,
 				11685A6F1CAF63F000F3D022 /* BIGNUM.cpp in Sources */,
 			);
