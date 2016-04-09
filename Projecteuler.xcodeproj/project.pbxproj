@@ -34,6 +34,10 @@
 		119C604F1CB94EC400D34106 /* problem28.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C604D1CB94EC400D34106 /* problem28.cpp */; };
 		119C60521CB950E100D34106 /* problem27.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60501CB950E100D34106 /* problem27.cpp */; };
 		119C60551CB9523200D34106 /* problem30.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60531CB9523200D34106 /* problem30.cpp */; };
+		119C60581CB952F800D34106 /* problem31.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60561CB952F800D34106 /* problem31.cpp */; };
+		119C605B1CB9537100D34106 /* problem34.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C60591CB9537100D34106 /* problem34.cpp */; };
+		119C605E1CB9560100D34106 /* problem56.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C605C1CB9560100D34106 /* problem56.cpp */; };
+		119C60611CB9585900D34106 /* problem63.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C605F1CB9585900D34106 /* problem63.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +107,14 @@
 		119C60511CB950E100D34106 /* problem27.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem27.hpp; sourceTree = "<group>"; };
 		119C60531CB9523200D34106 /* problem30.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem30.cpp; sourceTree = "<group>"; };
 		119C60541CB9523200D34106 /* problem30.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem30.hpp; sourceTree = "<group>"; };
+		119C60561CB952F800D34106 /* problem31.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem31.cpp; sourceTree = "<group>"; };
+		119C60571CB952F800D34106 /* problem31.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem31.hpp; sourceTree = "<group>"; };
+		119C60591CB9537100D34106 /* problem34.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem34.cpp; sourceTree = "<group>"; };
+		119C605A1CB9537100D34106 /* problem34.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem34.hpp; sourceTree = "<group>"; };
+		119C605C1CB9560100D34106 /* problem56.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem56.cpp; sourceTree = "<group>"; };
+		119C605D1CB9560100D34106 /* problem56.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem56.hpp; sourceTree = "<group>"; };
+		119C605F1CB9585900D34106 /* problem63.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem63.cpp; sourceTree = "<group>"; };
+		119C60601CB9585900D34106 /* problem63.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem63.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +159,12 @@
 				119C60111CB8EA5F00D34106 /* problem4.cpp */,
 				119C60411CB94BD100D34106 /* problem22.cpp */,
 				119C60421CB94BD100D34106 /* problem22.hpp */,
+				119C605C1CB9560100D34106 /* problem56.cpp */,
+				119C605D1CB9560100D34106 /* problem56.hpp */,
 				119C60121CB8EA5F00D34106 /* problem4.hpp */,
 				119C60141CB8EC2E00D34106 /* problem5.cpp */,
+				119C605F1CB9585900D34106 /* problem63.cpp */,
+				119C60601CB9585900D34106 /* problem63.hpp */,
 				119C60151CB8EC2E00D34106 /* problem5.hpp */,
 				119C603E1CB94AB400D34106 /* problem21.cpp */,
 				119C603F1CB94AB400D34106 /* problem21.hpp */,
@@ -156,7 +172,11 @@
 				119C60531CB9523200D34106 /* problem30.cpp */,
 				119C60541CB9523200D34106 /* problem30.hpp */,
 				119C604E1CB94EC400D34106 /* problem28.hpp */,
+				119C60591CB9537100D34106 /* problem34.cpp */,
+				119C605A1CB9537100D34106 /* problem34.hpp */,
 				119C60441CB94C7000D34106 /* problem23.cpp */,
+				119C60561CB952F800D34106 /* problem31.cpp */,
+				119C60571CB952F800D34106 /* problem31.hpp */,
 				119C604A1CB94DE900D34106 /* problem26.cpp */,
 				119C604B1CB94DE900D34106 /* problem26.hpp */,
 				119C60451CB94C7000D34106 /* problem23.hpp */,
@@ -259,13 +279,17 @@
 				119C60491CB94CDC00D34106 /* problem25.cpp in Sources */,
 				119C60221CB8EF3400D34106 /* problem9.cpp in Sources */,
 				119C60521CB950E100D34106 /* problem27.cpp in Sources */,
+				119C60581CB952F800D34106 /* problem31.cpp in Sources */,
 				119C60341CB8F41700D34106 /* problem16.cpp in Sources */,
 				119C60281CB8F12600D34106 /* problem11.cpp in Sources */,
 				119C60401CB94AB400D34106 /* problem21.cpp in Sources */,
+				119C605B1CB9537100D34106 /* problem34.cpp in Sources */,
 				119C60551CB9523200D34106 /* problem30.cpp in Sources */,
 				119C60461CB94C7000D34106 /* problem23.cpp in Sources */,
 				113639541CA411F60027C632 /* main.cpp in Sources */,
+				119C60611CB9585900D34106 /* problem63.cpp in Sources */,
 				119C60161CB8EC2E00D34106 /* problem5.cpp in Sources */,
+				119C605E1CB9560100D34106 /* problem56.cpp in Sources */,
 				119C601C1CB8EDB400D34106 /* problem7.cpp in Sources */,
 				119C601F1CB8EE9000D34106 /* problem8.cpp in Sources */,
 				119C602B1CB8F1B900D34106 /* problem12.cpp in Sources */,
