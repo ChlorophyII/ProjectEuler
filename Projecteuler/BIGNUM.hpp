@@ -13,7 +13,7 @@
 
 #endif /* BIGNUM_hpp */
 
-const int __BIGNUMLENGTH = 200;
+const int __BIGNUMLENGTH = 500;
 
 class BIGNUM
 {
