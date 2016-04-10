@@ -47,7 +47,7 @@
    10  | Summation of primes                         | 142913828922   |  3/25/2016
    11  | Largest product in a grid                   | 70600674       |  3/26/2016
    12  | Highly divisible triangular number          | 76576500       |  3/26/2016
-   13  | Large sum                                   | 55373762303860 |  3/26/2016
+   13  | Large sum                                   | 5537376230     |  3/26/2016
    14  | Longest Collatz sequence                    | 837799         |  3/29/2016
    16  | Power digit sum                             | 1366           |  3/26/2016
    18  | Maximum path sum I                          | 1074           |  3/26/2016
@@ -77,11 +77,11 @@
    243 | Resilience                                  | 892371480      |  4/8/2016
  */
 
-#include "problem243.hpp"
+#include "problem13.hpp"
 
 int main()
 {
-    run_problem243();
+    run_problem13();
 }
 
 

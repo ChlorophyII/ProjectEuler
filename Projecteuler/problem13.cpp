@@ -33,5 +33,13 @@ void run_problem13()
     for (int i = 0; i < 12; i++) {
         totalSum += sum[11-i] * pow(10,i);
     }
+    
+    for (int i = 1; i < 20; i++) {
+        if (int(totalSum / pow(10, i)) == 0) {
+            totalSum /= pow(10, i - 10);
+            break;
+        }
+    }
+    
     std::cout << totalSum << "\n";
 }
