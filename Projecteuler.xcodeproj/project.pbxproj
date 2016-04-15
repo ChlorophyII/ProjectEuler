@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		113639541CA411F60027C632 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 113639531CA411F60027C632 /* main.cpp */; };
+		115B9AA31CC002F900B9D766 /* problem29.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115B9AA11CC002F900B9D766 /* problem29.cpp */; };
 		11685A6F1CAF63F000F3D022 /* BIGNUM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11685A6D1CAF63F000F3D022 /* BIGNUM.cpp */; };
 		119C600D1CB8E7A400D34106 /* problem2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C600B1CB8E7A400D34106 /* problem2.cpp */; };
 		119C60101CB8E9A800D34106 /* problem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 119C600E1CB8E9A800D34106 /* problem3.cpp */; };
@@ -64,6 +65,8 @@
 /* Begin PBXFileReference section */
 		113639501CA411F60027C632 /* Projecteuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Projecteuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		113639531CA411F60027C632 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		115B9AA11CC002F900B9D766 /* problem29.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem29.cpp; sourceTree = "<group>"; };
+		115B9AA21CC002F900B9D766 /* problem29.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = problem29.hpp; sourceTree = "<group>"; };
 		11685A6D1CAF63F000F3D022 /* BIGNUM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BIGNUM.cpp; sourceTree = "<group>"; };
 		11685A6E1CAF63F000F3D022 /* BIGNUM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BIGNUM.hpp; sourceTree = "<group>"; };
 		119C600B1CB8E7A400D34106 /* problem2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = problem2.cpp; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				11685A6D1CAF63F000F3D022 /* BIGNUM.cpp */,
 				11685A6E1CAF63F000F3D022 /* BIGNUM.hpp */,
 				113639531CA411F60027C632 /* main.cpp */,
+				115B9AA11CC002F900B9D766 /* problem29.cpp */,
+				115B9AA21CC002F900B9D766 /* problem29.hpp */,
 				119C600B1CB8E7A400D34106 /* problem2.cpp */,
 				119C600C1CB8E7A400D34106 /* problem2.hpp */,
 				119C600E1CB8E9A800D34106 /* problem3.cpp */,
@@ -352,6 +357,7 @@
 				119C60851CB9730100D34106 /* problem67.cpp in Sources */,
 				119C60371CB8F53A00D34106 /* problem18.cpp in Sources */,
 				119C60311CB8F34000D34106 /* problem14.cpp in Sources */,
+				115B9AA31CC002F900B9D766 /* problem29.cpp in Sources */,
 				119C604C1CB94DE900D34106 /* problem26.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
